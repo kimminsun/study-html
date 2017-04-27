@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  
+  <title>css 6-d</title>
+  <style>
+  p       {margin: 0;         padding:0;
+            border: 0;         margin-top: 0.1en;     }
+  p.norep { background-image: url(img/back.gif);
+            background-repeat: no-repeat;
+			border:            dashed thin black;    }
+  p.horiz { background-image: url(img/back.gif);
+            background-repeat: repeat-x;
+			border:            solid thin black;}
+  p.vert  { background-image: url(img/back.gif);
+            background-repeat: repeat-y;
+			border:           : solid thin black;}
+  p.vpad  { background-image: url(img/back.gif);
+            background-repeat: repeat-y;
+			border:            solid thin black;
+			padding-left:       41px;
+			}
+
+</style>
+</head>
+<body>
+<h1>Background Tiling Test 1</h1><br><br>
+<p class="norep">Here is a boring paragraph with a no-repeat
+   background. Tiling patterns are controlled by the
+   <code>background-repeat</code>property.</p>
+
+<p class="horiz"> Here is a paragrph with a background. The
+ paragraph content is displayed on top of the background.
+ Note how the background is <em>tiled</em>. Tiling patterns
+ are controlled by the <code>background-repeat</code> property.</p>
+ <p class="vert">Here is a paragrph with a background. The
+ paragraph content is displayed on top of the background.
+ Note how the background is <em>tiled</em>. Tiling patterns
+ are controlled by the <code>background-repeat</code> property.</p>
+<p class="vpad">Here is a paragrph with a background. The
+ paragraph content is displayed on top of the background.
+ Note how the background is <em>tiled</em>. Tiling patterns
+ are controlled by the <code>background-repeat</code> property.</p>
+
+
+</body>
+</html>

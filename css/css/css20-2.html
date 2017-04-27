@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  
+  <title>css 20-2</title>
+  <style>
+p.a{
+    position: absolute;
+	color: red;
+	font-size: 80pt;
+	font-weight:1500;
+    left: 60px;
+    top: 70px;
+    z-index: -1;
+}
+p.b{
+    position: absolute;
+	color: yellow;
+	font-weight:1500;
+	font-size: 80pt;
+    left: 100px;
+    top: 25px;
+    z-index: 0;
+	}
+p.c{
+    position: absolute;
+	color: blue;
+	font-weight:1500;
+	font-size: 80pt;
+    left: 50px;
+    top: 0px;
+    z-index: 1;
+	}
+ 
+</style>
+</head>
+<body>
+<p class="a">Bottom</p>
+<p class="b">Middle</p>
+<P class="c">Top</p>
+
+</body>
+</html>
